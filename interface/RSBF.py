@@ -202,6 +202,35 @@ def truthTableTrans(varsNum, oneNumListEle):
         List.append(copy.deepcopy(Dic))
     return List
 
+'''
+    根据传入的dicIndexList求出九元真值表
+'''
+def EightTruthTable(dicIndexList):
+    resList = []
+    hang = len(dicIndexList)
+    dic_value = {0 : 0, 1 : 0, 2 : 0, 3 : 0, 4 : 0, 5 : 0, 6 : 0, 7 : 0}
+    for i1 in range(0, 2):
+        for i2 in range(0, 2):
+            for i3 in range(0, 2):
+                for i4 in range(0, 2):
+                    for i5 in range(0, 2):
+                        for i6 in range(0, 2):
+                            for i7 in range(0, 2):
+                                for i8 in range(0, 2):
+                                    dic_value[0] = i1
+                                    dic_value[1] = i2
+                                    dic_value[2] = i3
+                                    dic_value[3] = i4
+                                    dic_value[4] = i5
+                                    dic_value[5] = i6
+                                    dic_value[6] = i7
+                                    dic_value[7] = i8
+                                    resTmpList = []
+                                    for i in range(0, hang):
+                                        resTmpList.append(itemRes(dicIndexList[i], dic_value))
+                                    resList.append(sum(resTmpList) % 2)
+    return resList
+
 
 '''
     根据传入的dicIndexList求出九元真值表
@@ -303,7 +332,9 @@ def ElevenTruthTable(dicIndexList):
     根据当前布尔函数元数求出真值表
 '''
 def TruthTableSelect(varsNum, dicIndexList):
-    if varsNum == 9:
+    if varsNum == 8:
+        return EightTruthTable(dicIndexList)
+    elif varsNum == 9:
         return NineTruthTable(dicIndexList)
     elif varsNum == 10:
         return TenTruthTable(dicIndexList)

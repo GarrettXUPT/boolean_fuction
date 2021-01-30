@@ -1,10 +1,11 @@
 import numpy as np
-
+from S_BOX_Transparency import shortTableToLong
 import time
 from innerproduct import EightVars_innerProduct, NineVars_innerProduct
+
 '''
-十六进制转化为二进制列表
-return 转化结果
+    十六进制转化为二进制列表
+    return 转化结果
 '''
 def hexToBinary(hexList):
     ResList = []
@@ -26,22 +27,6 @@ def hexToBinary(hexList):
     :return f0-->f7的真值表组成的列表
 '''
 def S_BOX_TRUTHTABLE(TRUTHTABLE):
-    TRUTHTABLE1 = ["6 3", "7 C", "7 7", "7 B", "F 2", "6 B", "6 F", "C 5", "3 0", "0 1", "6 7", "2 B", "F E", "D 7", "A B", "7 6",
-                  "C A", "8 2", "C 9", "7 D", "F A", "5 9", "4 7", "F 0", "A D", "D 4", "A 2", "A F", "9 C", "A 4", "7 2", "C 0",
-                  "B 7", "F D", "9 3", "2 6", "3 6", "3 F", "F 7", "C C", "3 4", "A 5", "E 5", "F 1", "7 1", "D 8", "3 1", "1 5",
-                  "0 4", "C 7", "2 3", "C 3", "1 8", "9 6", "0 5", "9 A", "0 7", "1 2", "8 0", "E 2", "E B", "2 7", "B 2", "7 5",
-                  "0 9", "8 3", "2 C", "1 A", "1 B", "6 E", "5 A", "A 0", "5 2", "3 B", "D 6", "B 3", "2 9", "E 3", "2 F", "8 4",
-                  "5 3", "D 1", "0 0", "E D", "2 0", "F C", "B 1", "5 B", "6 A", "C B", "B E", "3 9", "4 A", "4 C", "5 8", "C F",
-                  "D 0", "E F", "A A", "F B", "4 3", "4 D", "3 3", "8 5", "4 5", "F 9", "0 2", "7 F", "5 0", "3 C", "9 F", "A 8",
-                  "5 1", "A 3", "4 0", "8 F", "9 2", "9 D", "3 8", "F 5", "B C", "B 6", "D A", "2 1", "1 0", "F F", "F 3", "D 2",
-                  "C D", "0 C", "1 3", "E C", "5 F", "9 7", "4 4", "1 7", "C 4", "A 7", "7 E", "3 D", "6 4", "5 D", "1 9", "7 3",
-                  "6 0", "8 1", "4 F", "D C", "2 2", "2 A", "9 0", "8 8", "4 6", "E E", "B 8", "1 4", "D E", "5 E", "0 B", "D B",
-                  "E 0", "3 2", "3 A", "0 A", "4 9", "0 6", "2 4", "5 C", "C 2", "D 3", "A C", "6 2", "9 1", "9 5", "E 4", "7 9",
-                  "E 7", "C 8", "3 7", "6 D", "8 D", "D 5", "4 E", "A 9", "6 C", "5 6", "F 4", "E A", "6 5", "7 A", "A E", "0 8",
-                  "B A", "7 8", "2 5", "2 E", "1 C", "A 6", "B 4", "C 6", "E 8", "D D", "7 4", "1 F", "4 B", "B D", "8 B", "8 A",
-                  "7 0", "3 E", "B 5", "6 6", "4 8", "0 3", "F 6", "0 E", "6 1", "3 5", "5 7", "B 9", "8 6", "C 1", "1 D", "9 E",
-                  "E 1", "F 8", "9 8", "1 1", "6 9", "D 9", "8 E", "9 4", "9 B", "1 E", "8 7", "E 9", "C E", "5 5", "2 8", "D F",
-                  "8 C", "A 1", "8 9", "0 D", "B F", "E 6", "4 2", "6 8", "4 1", "9 9", "2 D", "0 F", "B 0", "5 4", "B B", "1 6"]
     hexTableList =[]
     for ele in TRUTHTABLE:
         hexTableList.append(ele.split(" "))
@@ -271,9 +256,72 @@ def nonlinearity(varsNum, S_BOX_LIST):
     WalshVectorList = S_Box_Walsh(varsNum,truthTableList, innerList, thetaList)
     return S_BOX_nolinearityCompte(varsNum, WalshVectorList)
 
+def translateHex(table):
+    if table == [0, 0, 0, 0]:
+        return '0'
+    elif table == [0,0,0,1]:
+        return '1'
+    elif table == [0,0,1,0]:
+        return '2'
+    elif table == [0,0,1,1]:
+        return '3'
+    elif table == [0,1,0,0]:
+        return '4'
+    elif table == [0,1,0,1]:
+        return '5'
+    elif table == [0,1,1,0]:
+        return '6'
+    elif table == [0,1,1,1]:
+        return '7'
+    elif table == [1,0,0,0]:
+        return '8'
+    elif table == [1,0,0,1]:
+        return '9'
+    elif table == [1,0,1,0]:
+        return 'A'
+    elif table == [1,0,1,1]:
+        return 'B'
+    elif table == [1,1,0,0]:
+        return 'C'
+    elif table == [1,1,0,1]:
+        return 'D'
+    elif table ==[1,1,1,0]:
+        return 'E'
+    elif table == [1,1,1,1]:
+        return 'F'
+
+def binartToHex(varsNum, SMatrix):
+    binTmpList = []
+    for i in range(len(SMatrix[0])):
+        tmpList = []
+        for ele in SMatrix:
+            tmpList.append(ele[i])
+        tmp1 = translateHex(tmpList[:4])
+        tmp2 = translateHex(tmpList[4:])
+        tmp = tmp1 + ' ' + tmp2
+        binTmpList.append(tmp)
+    return binTmpList
+
+
+
+
 if __name__ == '__main__':
     start = time.time()
-
+    table = [128, 199, 143, 172, 158, 42, 216, 26, 188, 12, 84, 68, 177, 16, 52, 114, 248, 65, 24,
+            234, 41, 77, 9, 205, 226, 214, 32, 129, 104, 210, 101, 198, 241, 74, 3, 4, 48, 51, 213,
+            212, 82, 108, 27, 185, 18, 229, 155, 88, 197, 72, 173, 144, 64, 151, 130, 153, 81, 236,
+            165, 201, 75, 98, 141, 39, 227, 150, 21, 13, 6, 34, 8, 57, 96, 181, 102, 230, 171, 192,
+            169, 163, 37, 2, 89, 170, 54, 220, 242, 44, 36, 136, 203, 204, 182, 228, 49, 83, 139,
+            70, 17, 92, 218, 179, 160, 209, 1, 149, 174, 22, 132, 166, 178, 105, 35, 46, 217, 232,
+            202, 11, 147, 116, 23, 180, 69, 58, 154, 29, 78, 0, 127, 73, 19, 47, 38, 110, 94, 30, 76,
+            164, 93, 250, 61, 56, 60, 194, 25, 196, 200, 45, 59, 195, 245, 95, 122, 106, 112, 159,
+            120, 115, 133, 193, 50, 91, 137, 14, 145, 240, 90, 124, 118, 156, 135, 221, 235, 246,
+            63, 253, 117, 175, 85, 243, 97, 219, 190, 244, 113, 125, 103, 167, 138, 247, 131, 66,
+            100, 87, 55, 15, 146, 189, 28, 161, 162, 86, 225, 111, 53, 207, 121, 224, 109, 7, 184,
+            62, 142, 238, 187, 254, 215, 249, 237, 186, 126, 211, 251, 33, 107, 71, 222, 208, 43,
+            119, 231, 176, 67, 31, 183, 191, 252, 157, 233, 80, 99, 168, 123, 152, 79, 223, 206,
+            40, 148, 140, 239, 20, 134, 10, 5, 255]
+    binartToHex(8, shortTableToLong(8, table))
     end = time.time()
     print(end - start)
 

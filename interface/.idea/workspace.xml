@@ -29,13 +29,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2232">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="4712">
+              <caret line="161" column="53" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/figurePic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/t.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addDeg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1271">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autocorrelation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3317">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/differentialUniform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#1#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S_BOX_Transparency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5704">
+              <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
+              <folding>
+                <element signature="e#1#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S_Box_nonlinearity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5394">
+              <caret line="177" column="35" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ItemToTruthTable.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -50,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/walsh.py" />
-        <option value="$PROJECT_DIR$/function_Init.py" />
         <option value="$PROJECT_DIR$/S_Box——nonlinearity.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Truthtable.txt" />
@@ -85,30 +163,38 @@
         <option value="$PROJECT_DIR$/table.txt" />
         <option value="$PROJECT_DIR$/resultTable.txt" />
         <option value="$PROJECT_DIR$/transparency.py" />
-        <option value="$PROJECT_DIR$/innerproduct.py" />
         <option value="$PROJECT_DIR$/truthTable.py" />
-        <option value="$PROJECT_DIR$/walsh_and_nonlinearity.py" />
-        <option value="$PROJECT_DIR$/RSBF.py" />
         <option value="$PROJECT_DIR$/initList.py" />
         <option value="$PROJECT_DIR$/nine_vras_search.py" />
-        <option value="$PROJECT_DIR$/S_Box_nonlinearity.py" />
-        <option value="$PROJECT_DIR$/interface.py" />
+        <option value="$PROJECT_DIR$/innerproduct.py" />
         <option value="$PROJECT_DIR$/judge.py" />
+        <option value="$PROJECT_DIR$/nonAbsoluteIndicator.py" />
+        <option value="$PROJECT_DIR$/RSBF.py" />
+        <option value="$PROJECT_DIR$/walsh_and_nonlinearity.py" />
+        <option value="$PROJECT_DIR$/xiao_massey.py" />
+        <option value="$PROJECT_DIR$/addDeg.py" />
+        <option value="$PROJECT_DIR$/correlation.py" />
+        <option value="$PROJECT_DIR$/S_Box_nonlinearity.py" />
+        <option value="$PROJECT_DIR$/differentialUniform.py" />
+        <option value="$PROJECT_DIR$/autocorrelation.py" />
+        <option value="$PROJECT_DIR$/S_BOX_Transparency.py" />
+        <option value="$PROJECT_DIR$/interface.py" />
+        <option value="$PROJECT_DIR$/figurePic.py" />
+        <option value="$PROJECT_DIR$/t.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="174" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-372" />
+    <option name="y" value="-1448" />
+    <option name="width" value="2576" />
+    <option name="height" value="1426" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +206,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="J:/2021年1月12日153316/文档及代码/论文代码/布尔函数/add_deg" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,12 +224,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\13546\Desktop\rewrite" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13546\Desktop\论文过程\one_stage\interface\rewrite" />
       <recent name="C:\Users\13546\Desktop\one_stage\rewrite" />
       <recent name="C:\Users\13546\Desktop\nine_vars_search\rewrite" />
+      <recent name="C:\Users\13546\Desktop\rewrite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\13546\Desktop\rewrite" />
     </key>
   </component>
@@ -158,8 +246,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.interface">
-    <configuration name="RSBF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.t">
+    <configuration name="S_BOX_Transparency" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +260,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RSBF.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S_BOX_Transparency.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="initList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="autocorrelation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +304,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autocorrelation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="figurePic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rewrite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/figurePic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="judge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,29 +370,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/judge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="nine_vras_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rewrite" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\anaconda\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nine_vras_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.figurePic" />
         <item itemvalue="Python.interface" />
-        <item itemvalue="Python.judge" />
-        <item itemvalue="Python.RSBF" />
-        <item itemvalue="Python.nine_vras_search" />
-        <item itemvalue="Python.initList" />
+        <item itemvalue="Python.S_BOX_Transparency" />
+        <item itemvalue="Python.autocorrelation" />
       </list>
     </recent_temporary>
   </component>
@@ -407,11 +495,27 @@
       <workItem from="1601777391425" duration="4472000" />
       <workItem from="1601781964924" duration="1732000" />
       <workItem from="1601951713184" duration="29000" />
+      <workItem from="1608476541093" duration="615000" />
+      <workItem from="1609142274115" duration="21000" />
+      <workItem from="1610534993486" duration="5030000" />
+      <workItem from="1610541306380" duration="643000" />
+      <workItem from="1610542274995" duration="661000" />
+      <workItem from="1610762802953" duration="28168000" />
+      <workItem from="1610844765868" duration="15676000" />
+      <workItem from="1610888573952" duration="1282000" />
+      <workItem from="1610964163149" duration="8136000" />
+      <workItem from="1611025569339" duration="6842000" />
+      <workItem from="1611069661764" duration="708000" />
+      <workItem from="1611207493251" duration="4798000" />
+      <workItem from="1611290036261" duration="15536000" />
+      <workItem from="1611317769079" duration="7744000" />
+      <workItem from="1611452779993" duration="9390000" />
+      <workItem from="1611492310998" duration="1633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308029000" />
+    <option name="totallyTimeSpent" value="414912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,15 +527,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-372" y="-1448" width="2576" height="1426" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896693" visible="true" weight="0.1119403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896693" visible="true" weight="0.1836248" />
       <window_info id="Structure" order="1" sideWeight="0.50103307" side_tool="true" weight="0.122019075" />
       <window_info id="Favorites" order="2" sideWeight="0.50103307" side_tool="true" weight="0.122019075" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32583067" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.21543409" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35885537" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32559937" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.1786543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36581594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946634" />
@@ -444,7 +548,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.16732909" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -477,36 +581,34 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rewrite$innerproduct.coverage" NAME="innerproduct Coverage Results" MODIFIED="1595737154019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$initList.coverage" NAME="initList Coverage Results" MODIFIED="1598252812065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/rewrite$S_Box_nonlinearity.coverage" NAME="S_Box_nonlinearity Coverage Results" MODIFIED="1594778123161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$S_Box_nonlinearity.coverage" NAME="S_Box_nonlinearity Coverage Results" MODIFIED="1611048216952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$test.coverage" NAME="test Coverage Results" MODIFIED="1594434009170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$walsh.coverage" NAME="walsh Coverage Results" MODIFIED="1584952840057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$RSBF.coverage" NAME="RSBF Coverage Results" MODIFIED="1600762625508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1588920090969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$correlation.coverage" NAME="correlation Coverage Results" MODIFIED="1610973045691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$RSBFSearch.coverage" NAME="RSBFSearch Coverage Results" MODIFIED="1592875678769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/rewrite$interface.coverage" NAME="interface Coverage Results" MODIFIED="1601782792096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$differentialUniform.coverage" NAME="differentialUniform Coverage Results" MODIFIED="1611322943366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$interface.coverage" NAME="interface Coverage Results" MODIFIED="1611326904326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$transparency.coverage" NAME="transparency Coverage Results" MODIFIED="1591325425915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/rewrite$walsh_and_nonlinearity.coverage" NAME="walsh_and_nonlinearity Coverage Results" MODIFIED="1586062362806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$nine_vras_search.coverage" NAME="nine_vras_search Coverage Results" MODIFIED="1598254380632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$truthTable.coverage" NAME="truthTable Coverage Results" MODIFIED="1595734285670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$autocorrelation.coverage" NAME="autocorrelation Coverage Results" MODIFIED="1611326820512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$RSBFTEST.coverage" NAME="RSBFTEST Coverage Results" MODIFIED="1587964489676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$hanming_distance_search.coverage" NAME="hanming_distance_search Coverage Results" MODIFIED="1592875172266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$t.coverage" NAME="t Coverage Results" MODIFIED="1611493073243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$main.coverage" NAME="main Coverage Results" MODIFIED="1586062042204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$judge.coverage" NAME="judge Coverage Results" MODIFIED="1610535185803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$figurePic.coverage" NAME="figurePic Coverage Results" MODIFIED="1611455195529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$walsh_and_nonlinearity.coverage" NAME="walsh_and_nonlinearity Coverage Results" MODIFIED="1586062362806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$addDeg.coverage" NAME="addDeg Coverage Results" MODIFIED="1610538727957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$function_Init.coverage" NAME="function_Init Coverage Results" MODIFIED="1585108692940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$ItemToTruthTable.coverage" NAME="ItemToTruthTable Coverage Results" MODIFIED="1586008099151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/rewrite$main.coverage" NAME="main Coverage Results" MODIFIED="1586062042204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rewrite$oneNumSearch.coverage" NAME="oneNumSearch Coverage Results" MODIFIED="1587966050286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/rewrite$judge.coverage" NAME="judge Coverage Results" MODIFIED="1601779351054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$xiao_massey.coverage" NAME="xiao_massey Coverage Results" MODIFIED="1610537128017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rewrite$S_BOX_Transparency.coverage" NAME="S_BOX_Transparency Coverage Results" MODIFIED="1611326833599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res5_correct.txt" />
-    <entry file="file://$PROJECT_DIR$/y5_113_1.txt" />
-    <entry file="file://$PROJECT_DIR$/res6_correct.txt" />
-    <entry file="file://$PROJECT_DIR$/res7_correct.txt" />
-    <entry file="file://$PROJECT_DIR$/y6_111_1.txt" />
-    <entry file="file://$PROJECT_DIR$/res8_correct.txt" />
-    <entry file="file://$PROJECT_DIR$/y7_109_0.txt" />
-    <entry file="file://$PROJECT_DIR$/Res1.txt" />
-    <entry file="file://$PROJECT_DIR$/11.txt" />
-    <entry file="file://$PROJECT_DIR$/Truthtable.txt" />
     <entry file="file://$PROJECT_DIR$/test01.py" />
     <entry file="file://$PROJECT_DIR$/resFile.txt" />
     <entry file="file://$PROJECT_DIR$/nonlinearity_112_resFile.txt" />
@@ -520,7 +622,6 @@
     <entry file="file://$PROJECT_DIR$/eight_S_BOX_thetaGenerate" />
     <entry file="file://$PROJECT_DIR$/function_Init.py" />
     <entry file="file://$PROJECT_DIR$/hanming_distance_search.py" />
-    <entry file="file://$PROJECT_DIR$/ItemToTruthTable.py" />
     <entry file="file://$PROJECT_DIR$/RSBFTEST.py" />
     <entry file="file://$PROJECT_DIR$/random_sequence_gen.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
@@ -545,13 +646,6 @@
     <entry file="file://$PROJECT_DIR$/resultTable.txt" />
     <entry file="file://$PROJECT_DIR$/resultTable2.txt" />
     <entry file="file://$PROJECT_DIR$/initList.py" />
-    <entry file="file://$PROJECT_DIR$/walsh_and_nonlinearity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eight_vars_input_table.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -561,61 +655,152 @@
     <entry file="file://$PROJECT_DIR$/nine_vras_search.py" />
     <entry file="file://$PROJECT_DIR$/initCondition.txt" />
     <entry file="file://$PROJECT_DIR$/RSBFSearch.py" />
-    <entry file="file://$PROJECT_DIR$/innerproduct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="216" column="3" lean-forward="true" selection-start-line="216" selection-start-column="3" selection-end-line="216" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/transparency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="-2293">
           <caret line="404" lean-forward="true" selection-start-line="404" selection-end-line="404" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/truthTable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3968">
-          <caret line="224" column="48" selection-start-line="224" selection-start-column="48" selection-end-line="224" selection-end-column="48" />
+        <state relative-caret-position="6386">
+          <caret line="206" column="25" lean-forward="true" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flieToLst.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/innerproduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walsh_and_nonlinearity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonAbsoluteIndicator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9827">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiao_massey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="112" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="112" />
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RSBF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11160">
-          <caret lean-forward="true" />
+        <state relative-caret-position="1883">
+          <caret line="333" column="4" selection-start-line="333" selection-start-column="4" selection-end-line="333" selection-end-column="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/anaconda/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="2451" column="4" selection-start-line="2451" selection-start-column="4" selection-end-line="2451" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4712">
+          <caret line="161" column="53" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figurePic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addDeg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autocorrelation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3317">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differentialUniform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S_BOX_Transparency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5704">
+          <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
+          <folding>
+            <element signature="e#1#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/S_Box_nonlinearity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7408">
-          <caret lean-forward="true" />
+        <state relative-caret-position="5394">
+          <caret line="177" column="35" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="188" column="44" lean-forward="true" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ItemToTruthTable.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
+    <entry file="file://$PROJECT_DIR$/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="620">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>

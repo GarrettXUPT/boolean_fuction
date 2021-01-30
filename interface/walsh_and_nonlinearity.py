@@ -1,13 +1,14 @@
 
-from truthTable import truthTableSelect, tableList
+from truthTable import truthTableSelect
 from innerproduct import innerProductSelect
 import copy
 '''
     布尔函数walsh谱的计算
     :return walsh谱向量
 '''
-def walshCompute(truthTable, innerProductRes):
+def walshCompute(varsNum, truthTable):
     # print(truthTable)
+    innerProductRes = innerProductSelect(varsNum)
     walshTmpResList = []
     tmpList = []
     walshResList = []
@@ -32,19 +33,18 @@ def walshCompute(truthTable, innerProductRes):
     布尔函数非线性度的计算
     :return 布尔函数非线性度的值
 '''
-def nonlinearityCompute(varsNum, truthTable, innerProduct):
+def nonlinearityCompute(varsNum, truthTable):
     tmpList = []
-    for ele in walshCompute(truthTable, innerProduct):
+    for ele in walshCompute(varsNum, truthTable):
         tmpList.append(abs(ele))
     # print(tmpList)
     return pow(2, varsNum - 1) - 0.5 * max(tmpList)
 
 
 
-
 if __name__ == '__main__':
     dicIndexList = []
     truthTable = truthTableSelect(3, dicIndexList)
-    res = nonlinearityCompute(3, truthTable, innerProductSelect(3))
+    res = nonlinearityCompute(3, truthTable)
     print(f"nonlinearity = {res}")
 
